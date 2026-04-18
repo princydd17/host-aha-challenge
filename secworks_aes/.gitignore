@@ -1,0 +1,30 @@
+#=======================================================================
+#
+# .gitignore
+# ----------
+# Gitignore for core projects.
+#=======================================================================
+
+## Generated files
+test*
+*.sim
+
+## Log files
+*.log
+
+## Simulation / synth scratch (local runs)
+Trojan_*/tb/*.out
+aes_synth_trojan_3_tmp/
+
+
+## Subdirs in toolruns for vendor tools
+/toolruns/quartus
+/toolruns/ise/
+/toolruns/vivado
+/toolruns/modelsim
+/toolruns/libero
+/toolruns/icestorm
+
+#=======================================================================
+# EOF .gitignore
+#=======================================================================
